@@ -21,13 +21,13 @@ def pydeept7():
         top.label4 = tk.Label(top, text="Non-effector feature file", bd =5, bg='plum1').grid(row=12,column=1)
         
         top.entry1 = tk.Entry(top, bd =3, width=40)
-        top.entry1.insert(10, "D:/rishika/5_work_type7/datasets/mixed_pro.txt")
+        top.entry1.insert(10, "mixed_pro.txt")
         top.entry2 = tk.Entry(top, bd =3, width=40)
-        top.entry2.insert(10, "D:/rishika/5_work_type7/datasets/mixed_gen.txt")
+        top.entry2.insert(10, "mixed_gen.txt")
         top.entry3 = tk.Entry(top, bd =3, width=40)
-        top.entry3.insert(10, "D:/rishika/5_work_type7/datasets/Feature_effector7.csv")
+        top.entry3.insert(10, "Feature_effector7.csv")
         top.entry4 = tk.Entry(top, bd =3, width=40)
-        top.entry4.insert(10, "D:/rishika/5_work_type7/datasets/Feature_noneffector7.csv")
+        top.entry4.insert(10, "Feature_noneffector7.csv")
 
         
         top.button = tk.Button(top, text="Predict!", command=top.on_button, padx=2, pady=2, width=10, bg="bisque2")
